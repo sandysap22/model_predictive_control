@@ -27,8 +27,8 @@ To get optimal solution following cost factors were considered.
 
 To get smooth ride we need to apply different weights for above cost variables. After doing some trial and error. I have applied following weights.
 
-CTE:OE:VD:ACC:SAF:ACCF  
-50:100:1:5:5:25000:500
+`CTE:OE:VD:ACC:SAF:ACCF`  
+`50:100:1:5:5:25000:500`
 
 We can see that we have given highest weight  for steering angle fluctuation and acceleration fluctuation, this provides very smooth ride.
 
